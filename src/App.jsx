@@ -30,7 +30,7 @@ function App() {
           <p className="font-bold text-[48px]">Welcome back!</p>
         </div>
         <form>
-          <div className="relative w-full rounded-lg mb-4 px-5 py-4 border font-semibold block outline-none focus:border-gray-800 peer">
+          <div className="relative w-full rounded-lg mb-4 px-5 py-4 border font-semibold block outline-none focus:border-gray-800 hover:border-gray-800 peer">
             <input
               type="text"
               id="username"
@@ -48,7 +48,7 @@ function App() {
             </label>
           </div>
 
-          <div className="w-full rounded-lg px-5 py-4 font-semibold block outline-none border focus:border-gray-800 relative peer">
+          <div className="w-full rounded-lg px-5 py-4 font-semibold block outline-none border focus:border-gray-800 hover:border-gray-800 relative peer">
             <input
               type={showPassword ? "text" : "password"}
               id="password"
@@ -83,7 +83,7 @@ function App() {
 
           <button
             type="submit"
-            className="bg-red-600 text-white font-bold text-lg py-4 px-8 mt-14 w-full rounded-lg my-6 disabled:opacity-70 disabled:cursor-not-allowed"
+            className="bg-red-600 text-white font-bold text-lg py-4 px-8 mt-14 w-full rounded-lg my-6 hover:bg-red-500"
           >
             Login
           </button>
