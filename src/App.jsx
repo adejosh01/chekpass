@@ -27,7 +27,7 @@ function App() {
           <img src="./logo.png" alt="logo" className="text-center" />
         </div>
         <div className="flex items-center justify-center">
-          <p className="font-bold md:text-[48px] whitespace-nowrap">Welcome back!</p>
+          <p className="font-bold text-md md:text-[48px] whitespace-nowrap">Welcome back!</p>
         </div>
         <form>
           <div className="relative w-full rounded-lg mb-4 px-5 py-4 border font-semibold block outline-none focus:border-gray-800 hover:border-gray-800 peer">
