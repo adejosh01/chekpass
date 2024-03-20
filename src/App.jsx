@@ -77,7 +77,7 @@ function App() {
               {/* Conditional rendering of the eye icons based on showPassword state */}
             </button>
           </div>
-          <a href="/" className="flex ml-96 mt-2 w-32 font-bold text-[14px]">
+          <a href="/" className="flex items-end justify-end mt-2 w-32 font-bold text-[14px]">
             Forgot password?
           </a>
 
